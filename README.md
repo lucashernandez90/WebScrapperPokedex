@@ -1,8 +1,8 @@
-# Para gerar o csv entre no arquivo pokemon_scrapper.py cole no terminal
+## Para gerar o csv entre no arquivo pokemon_scrapper.py cole no terminal
 
-## 'python -m scrapy runspider pokemon_scrapper.py'
+```python -m scrapy runspider pokemon_scrapper.py```
 
-# Para apenas gerar o tratamento e os graficos apenas debug o arquivo tratamento.py (Crtl + F5)
+## Para apenas gerar o tratamento e os graficos apenas debug o arquivo tratamento.py (Crtl + F5)
 
 # Objetivo
 
