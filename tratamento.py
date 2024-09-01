@@ -47,7 +47,7 @@ plt.title('Top 5 Pokémon Mais Altos')
 plt.show()
 
 # gráfico para a contagem dos tipos de Pokémon
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(15, 6))
 plt.bar(tipo_counts_df['pokemon_type'], tipo_counts_df['count'], color='blue')
 plt.xlabel('Tipo de Pokémon')
 plt.ylabel('Quantidade')
