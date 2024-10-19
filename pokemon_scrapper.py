@@ -8,7 +8,7 @@ class PokemonScrapper(scrapy.Spider):
 
     def __init__(self, *args, **kwargs):
         super(PokemonScrapper, self).__init__(*args, **kwargs)
-        self.csv_file = open('pokemons.csv', 'w', newline='', encoding='utf-8')
+        self.csv_file = open('pokemon.csv', 'w', newline='', encoding='utf-8')
         self.csv_writer = csv.writer(self.csv_file)
         self.csv_writer.writerow(['pokedex_number', 'pokemon_name', 'next_evolution', 'pokemon_weight', 'pokemon_height', 'pokemon_type', 'pokemon_abilities'])
 
